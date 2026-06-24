@@ -1,0 +1,35 @@
+product: AI Account Prioritization Agent for B2B Sales Teams
+package_version: v2.0-vercel-eve
+status: ready_for_software_development_team_review_and_claude_code_scoping
+framework_decision:
+  agent_orchestration: Vercel Eve
+  app_platform: Next.js on Vercel
+  coding_agent: Claude Code
+  runtime_pattern: bounded scheduled agent loop
+  primary_language: TypeScript
+  optional_support_runtime: Vercel Python Functions for scoring/data-quality/eval
+    support only
+workflow:
+- Discovery Wizard
+- Modular Markdown PRDs
+- Data & Architecture Archetypes
+- Task Mapping via MCP
+- Validation & Eval Loop
+runtime_loop:
+- DISCOVER
+- PLAN
+- EXECUTE
+- VERIFY
+- ITERATE
+non_negotiables:
+- Vercel Eve orchestrates agent workflow
+- LLM does not rank accounts directly
+- Deterministic scoring remains typed and reproducible
+- Customer-facing output requires human approval
+- CRM write-back requires human approval
+- Every published recommendation passes evals and guardrails
+- Seeded-data prototype comes before live CRM integration
+source_urls:
+  vercel_eve_docs: https://vercel.com/docs/eve
+  vercel_eve_blog: https://vercel.com/blog/introducing-eve
+  vercel_python_runtime: https://vercel.com/docs/functions/runtimes/python

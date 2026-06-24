@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AnalyticsEvent",
+  "type": "object",
+  "required": [
+    "event_name",
+    "user_id",
+    "role",
+    "timestamp"
+  ],
+  "properties": {
+    "event_name": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "role": {
+      "enum": [
+        "rep",
+        "manager",
+        "admin",
+        "system"
+      ]
+    },
+    "team_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "agent_run_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  }
+}

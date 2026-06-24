@@ -1,0 +1,61 @@
+{
+  "tasks": [
+    {
+      "id": "T001",
+      "title": "Create Next.js app shell",
+      "source_doc": "docs/features/01_clickable_wireframe.md",
+      "priority": "P0",
+      "evals_required": [
+        "QA-001",
+        "QA-002",
+        "QA-003"
+      ]
+    },
+    {
+      "id": "T002",
+      "title": "Add Vercel Eve agent directory",
+      "source_doc": "docs/features/14_vercel_eve_agent_framework.md",
+      "priority": "P0",
+      "evals_required": [
+        "daily-prioritization.eval.ts"
+      ]
+    },
+    {
+      "id": "T003",
+      "title": "Implement deterministic scoring tools",
+      "source_doc": "docs/features/05_scoring_logic.md",
+      "priority": "P0",
+      "evals_required": [
+        "scoring.eval.ts"
+      ]
+    },
+    {
+      "id": "T004",
+      "title": "Implement recommendation guardrails and approvals",
+      "source_doc": "docs/features/06_ai_prompt_guardrails.md",
+      "priority": "P0",
+      "evals_required": [
+        "guardrails.eval.ts",
+        "approval.eval.ts"
+      ]
+    },
+    {
+      "id": "T005",
+      "title": "Implement RBAC and security gates",
+      "source_doc": "docs/features/11_security_requirements.md",
+      "priority": "P0",
+      "evals_required": [
+        "security.eval.ts"
+      ]
+    },
+    {
+      "id": "T006",
+      "title": "Implement analytics events",
+      "source_doc": "docs/features/10_analytics_event_schema.md",
+      "priority": "P1",
+      "evals_required": [
+        "analytics_event_schema_validation"
+      ]
+    }
+  ]
+}

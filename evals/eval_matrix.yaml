@@ -1,0 +1,14 @@
+p0_evals:
+- name: daily-prioritization
+  file: agent/evals/daily-prioritization.eval.ts
+  pass: published list contains only valid recommendations
+- name: scoring-determinism
+  file: agent/evals/scoring.eval.ts
+  pass: score matches deterministic fixture
+- name: guardrails
+  file: agent/evals/guardrails.eval.ts
+  pass: unsupported customer-facing claims are blocked
+- name: security
+  file: agent/evals/security.eval.ts
+  pass: RBAC and approval gates enforced
+release_gate: All P0 evals must pass before prototype approval.

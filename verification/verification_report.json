@@ -1,0 +1,381 @@
+{
+  "generated_at_utc": "2026-06-23T21:01:53.220918+00:00",
+  "package": "ai_account_prioritization_vercel_eve_modern_agent_prd_handoff",
+  "file_count": 74,
+  "framework_decision_present": true,
+  "vercel_eve_agent_directory_present": true,
+  "artifact_specific_docs_present": true,
+  "verification_status": "PASS",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "d6942a832dcc4c03ad4d212b1f73b4df659dc1d701c1256c805343ce9bb05c90",
+      "bytes": 3132
+    },
+    {
+      "path": "agent/README.md",
+      "sha256": "700fa91b5ed86966fe1dcd9c82d0d1cc40344574c4f42501c686323a35f9448a",
+      "bytes": 485
+    },
+    {
+      "path": "agent/agent.ts",
+      "sha256": "9c2ebea620916a93194fc6a7db4f017900ed8c370eb3fabfa6d6d33683ff3c40",
+      "bytes": 453
+    },
+    {
+      "path": "agent/connections/analytics.ts",
+      "sha256": "b9043e5b1cdd482aaf5f3ce19c12676c18b937b1c934e0f4399e0dcf696af959",
+      "bytes": 210
+    },
+    {
+      "path": "agent/connections/crm.ts",
+      "sha256": "ad58536a82b20b3e99dd33abe1ba01a9f5961dc3cd9706fc9feebd042884c7c0",
+      "bytes": 278
+    },
+    {
+      "path": "agent/connections/database.ts",
+      "sha256": "4593eb531ba7d36614c453b1edc41aeb64cbc4fb0bc8e9336106180d443ea202",
+      "bytes": 236
+    },
+    {
+      "path": "agent/connections/linear.ts",
+      "sha256": "34e8cbaa923084237428c460becc5feee20efd215f9eab4e07cad20bee9cae71",
+      "bytes": 228
+    },
+    {
+      "path": "agent/evals/daily-prioritization.eval.ts",
+      "sha256": "987a13b237ce6d473c1a79a357088af8a9c3641482eb259e3f5d7508332ee1f1",
+      "bytes": 304
+    },
+    {
+      "path": "agent/evals/guardrails.eval.ts",
+      "sha256": "43c1bfb4ad4e67cf215ac709c5b7275df054ee4ca9da411c844650690660e72d",
+      "bytes": 231
+    },
+    {
+      "path": "agent/evals/scoring.eval.ts",
+      "sha256": "5b5c7e241a3e6a6ad2cc756db8484bf2d9885fda7f2e4a7a4a1c444f445e6e85",
+      "bytes": 255
+    },
+    {
+      "path": "agent/evals/security.eval.ts",
+      "sha256": "a78d20f143d85e44b5dc41fd1a3fce5fcec131d1f76fc8dc222479a149eb29fb",
+      "bytes": 222
+    },
+    {
+      "path": "agent/instructions.md",
+      "sha256": "1f8bd78bef70da02544c88e78977491843c047f601679f48b2556ea66e27b984",
+      "bytes": 1109
+    },
+    {
+      "path": "agent/schedules/daily-prioritization.md",
+      "sha256": "092c862475aab9fe08e8043d5de6bc09bb7454410bfdb218edf73ad4d5305edd",
+      "bytes": 414
+    },
+    {
+      "path": "agent/skills/account-prioritization.md",
+      "sha256": "444915b35e9ecb6cafcead475c464b82416bd326885bd72c0d890e42efdabb92",
+      "bytes": 372
+    },
+    {
+      "path": "agent/skills/crm-data-definitions.md",
+      "sha256": "acd7b7d21491a4f8e26b9136841950d33caaca4c10f6cf50a51c7fc083239b6e",
+      "bytes": 262
+    },
+    {
+      "path": "agent/skills/guardrails.md",
+      "sha256": "4b8521c70d220e1eee60c7a51b542a68d56cf6b19bf99aec63df53dcf1f832ae",
+      "bytes": 257
+    },
+    {
+      "path": "agent/skills/sales-execution-policy.md",
+      "sha256": "c55a9677aaf44873f48b3d69cca8a39cd2b463e72f3e124fb2af0d1c9a631ed8",
+      "bytes": 272
+    },
+    {
+      "path": "agent/skills/scoring-rules.md",
+      "sha256": "9212eb1d6163cbce5f839fb264e5fb2b9dd760c839931fcea5a70e285be3f5a7",
+      "bytes": 265
+    },
+    {
+      "path": "agent/subagents/data-quality-reviewer/agent.ts",
+      "sha256": "71215f917eb0b27f36edf503b29681a80c03df532b435d63c5c2a28f2a7197cb",
+      "bytes": 143
+    },
+    {
+      "path": "agent/subagents/data-quality-reviewer/instructions.md",
+      "sha256": "1ca9184a34e943e268022409cf27da48cd4fb0cdbc8af95c7fde4ac50f73b754",
+      "bytes": 363
+    },
+    {
+      "path": "agent/subagents/recommendation-verifier/agent.ts",
+      "sha256": "7ef404db0474abbe846b9ec0acd4daa95359ec2cd4da44973838b4487319af91",
+      "bytes": 145
+    },
+    {
+      "path": "agent/subagents/recommendation-verifier/instructions.md",
+      "sha256": "8f4eae00f5a7da240301a86bfe3adab4b9254e898853f6ed5c141ee264f0155d",
+      "bytes": 316
+    },
+    {
+      "path": "agent/subagents/sales-content-guardrail/agent.ts",
+      "sha256": "55625bfde30e21ad1d5a7ba7a9324ee1e3d13ccea6dd58ba7de40d31c0e72f56",
+      "bytes": 145
+    },
+    {
+      "path": "agent/subagents/sales-content-guardrail/instructions.md",
+      "sha256": "3f7caf9be37dc751edbe5862acd1002146a719128a8fb202496f758226f19ec7",
+      "bytes": 313
+    },
+    {
+      "path": "agent/tools/discover_account_signals.ts",
+      "sha256": "7f4022d6df2fbaa411804c9d7a73d45a52f58c33a4994319662f11756c457163",
+      "bytes": 445
+    },
+    {
+      "path": "agent/tools/generate_call_objective.ts",
+      "sha256": "3b33547e23defcdfb855d7c1a1a379270f39e8faa4e1e6137a9bc745e11b46f3",
+      "bytes": 515
+    },
+    {
+      "path": "agent/tools/generate_crm_note.ts",
+      "sha256": "a270fc42e901d1941184566c00698614b74c945a670160ba901a1bbf6cd7da53",
+      "bytes": 396
+    },
+    {
+      "path": "agent/tools/generate_email_draft.ts",
+      "sha256": "f81324961c0bdf66c8d590dec9fc80d56606ce94d5372091ff50247899afca93",
+      "bytes": 478
+    },
+    {
+      "path": "agent/tools/generate_reason_codes.ts",
+      "sha256": "63fd6bd788ee068cce7707150198b8166bdd42e0482d8b77fe9c4cae0946c273",
+      "bytes": 457
+    },
+    {
+      "path": "agent/tools/publish_priority_list.ts",
+      "sha256": "ff134ed27392c6604d5f0c378d49f6d77834d728d33b56cb250167ccec018fd2",
+      "bytes": 603
+    },
+    {
+      "path": "agent/tools/rank_accounts.ts",
+      "sha256": "b4b19514a0bd1f2b02196afa31b34b5cc3f93d92c650bf93e2dd100138b8b33e",
+      "bytes": 388
+    },
+    {
+      "path": "agent/tools/score_accounts.ts",
+      "sha256": "ca08b9995231185a3897063880a406f2816745c6c64cd90df749793de42559bc",
+      "bytes": 528
+    },
+    {
+      "path": "agent/tools/select_next_best_action.ts",
+      "sha256": "1ab25b44e98265e3433c1d54e8d5ae19545ca06a2331cf683ff6173c1d25dad7",
+      "bytes": 436
+    },
+    {
+      "path": "agent/tools/submit_feedback.ts",
+      "sha256": "32ed97f06d59a4479a21a5fb3d6419af9382246ee5e63784dccb240f58e3a993",
+      "bytes": 352
+    },
+    {
+      "path": "agent/tools/verify_recommendation.ts",
+      "sha256": "cbfebf70a4fa08cf53579872967a769feb3df113965c2d7afdf494f7834bbfce",
+      "bytes": 757
+    },
+    {
+      "path": "agent/tools/write_audit_log.ts",
+      "sha256": "b29c051e14c39b1b66d0df903f090274dd1bc204775fdeb425d29fadfbdf5f6b",
+      "bytes": 404
+    },
+    {
+      "path": "api-python/README.md",
+      "sha256": "3d3143c8cda57e3942821a19a3b154315273dd269d41de18b3cf4426f4cd4b5c",
+      "bytes": 266
+    },
+    {
+      "path": "api-python/app.py",
+      "sha256": "9f734392f05dbd9f163018614b85fe194b2730bf7b4ee5553c04263aac346f40",
+      "bytes": 626
+    },
+    {
+      "path": "api-python/pyproject.toml",
+      "sha256": "993de1d6dac282f6cf99d57f5d5cb4fa6f322eeb75b83d2ff510a10b10d5df66",
+      "bytes": 163
+    },
+    {
+      "path": "commands/prd-create.md",
+      "sha256": "c29f1c1d1a1d6606dc6e22145bf2874ccdf9e159693299c3ccfecd4e08412dc8",
+      "bytes": 259
+    },
+    {
+      "path": "commands/prd-start.md",
+      "sha256": "da4900eb9b1c1893dfbf502b66978d59bfc09d0d9f1cd02bf5cfe8cbc010a562",
+      "bytes": 248
+    },
+    {
+      "path": "commands/prd-validate.md",
+      "sha256": "3dfcbb9d0597314d6a87d78429c18270c0d09639dbe0721eb9bb918ed09735fa",
+      "bytes": 223
+    },
+    {
+      "path": "docs/00_MASTER_MODERN_AI_AGENT_PRD_WORKFLOW.md",
+      "sha256": "e80a44945666003783b007387b606939c22bced5d439e3d1942d96078e478f42",
+      "bytes": 1552
+    },
+    {
+      "path": "docs/01_DISCOVERY_WIZARD_LOCKED_ANSWERS.md",
+      "sha256": "4953c3cef1447d5ce3646fd72c71f71d943b741d85d7b05774336bf9b9ffb744",
+      "bytes": 1750
+    },
+    {
+      "path": "docs/02_VERCEL_EVE_FRAMEWORK_DECISION_ADR.md",
+      "sha256": "e154bb0132fa71192530d401e59d7bb56341b35551546ca93963480f770e9835",
+      "bytes": 2204
+    },
+    {
+      "path": "docs/03_RUNTIME_DISCOVER_PLAN_EXECUTE_VERIFY_ITERATE.md",
+      "sha256": "9a93c0765efa66f62b9907c3d10cc088f936c179d75d3efdead3969973210d18",
+      "bytes": 1564
+    },
+    {
+      "path": "docs/04_MODULAR_MARKDOWN_PRD_INDEX.md",
+      "sha256": "888b48383b5f45529d66b41460d8471249455fcc10eb1abbd46ae811043d27cf",
+      "bytes": 1342
+    },
+    {
+      "path": "docs/05_DATA_ARCHITECTURE_ARCHETYPES.md",
+      "sha256": "97504447600175b56f1ad0be959473e228d41f829f6d643e981c3e841dc7e851",
+      "bytes": 1087
+    },
+    {
+      "path": "docs/06_MCP_TASK_MAPPING.md",
+      "sha256": "87e07e2b41428870a351bfd7281ebb277b16e0319301cb9b3e57dca9e7dddebe",
+      "bytes": 688
+    },
+    {
+      "path": "docs/07_VALIDATION_EVAL_LOOP.md",
+      "sha256": "aa75ed5c3fc6832ba23ac58eb092babd14a3c48c8668f862a16e3afe4fb73944",
+      "bytes": 708
+    },
+    {
+      "path": "docs/combined/AI_Account_Prioritization_Vercel_Eve_Modern_Agent_PRD_Handoff.md",
+      "sha256": "0b7ca90a8f93d4ac4f34c63001b58b6eef9049ddf0749cb36646839f5100b63b",
+      "bytes": 44039
+    },
+    {
+      "path": "docs/features/01_clickable_wireframe.md",
+      "sha256": "5a984b35260f6c6583d3a947b9722c7489ec123093bc1a65c0a46f0db49c9ef8",
+      "bytes": 2382
+    },
+    {
+      "path": "docs/features/02_data_model.md",
+      "sha256": "8859a5afa914186932f21dba40efcb700bd78fb9a03beea4d9ca88a9ebdb2499",
+      "bytes": 3169
+    },
+    {
+      "path": "docs/features/03_api_contract.md",
+      "sha256": "d753d785e2e52f64abdae991a711bbab8f8c3fa30f4bd2a6e6a810eca1592abc",
+      "bytes": 2472
+    },
+    {
+      "path": "docs/features/04_crm_field_mapping.md",
+      "sha256": "b6e56566644ad0c0fd1d2920befd2993f7d424980c46001a0d4ad6200dbbc81e",
+      "bytes": 2384
+    },
+    {
+      "path": "docs/features/05_scoring_logic.md",
+      "sha256": "51eb3e5e96f13624c7f6f2779218bec49ab31f29e119a7a108e588e269615667",
+      "bytes": 2369
+    },
+    {
+      "path": "docs/features/06_ai_prompt_guardrails.md",
+      "sha256": "5c26d4bbf945a39fc6b1d9d01d995ad89c87d0babd55ef381368f7194422df27",
+      "bytes": 1911
+    },
+    {
+      "path": "docs/features/07_user_story_backlog.md",
+      "sha256": "1851ebd299c488b662bfb6fa3bd24b2e4f5f623109c95b7022943f8a2d9afb61",
+      "bytes": 2353
+    },
+    {
+      "path": "docs/features/08_sprint_plan.md",
+      "sha256": "ed332dd10ce360c9a602f548fe4d8e5d526861722835fae59929c1e44394f8cd",
+      "bytes": 1839
+    },
+    {
+      "path": "docs/features/09_qa_eval_test_cases.md",
+      "sha256": "be8866902a1cda51001d3f19e31822f0951377584a20a60d74ade32993baea75",
+      "bytes": 1697
+    },
+    {
+      "path": "docs/features/10_analytics_event_schema.md",
+      "sha256": "d9044c2496546d6f6efd806bbd9bbec047cfb1976e21a49fb405624084e939e7",
+      "bytes": 1302
+    },
+    {
+      "path": "docs/features/11_security_requirements.md",
+      "sha256": "3d498fe3fc5dd19581871fd6ca44736a1a1cd582beb534b26d912a0369b1fac2",
+      "bytes": 1636
+    },
+    {
+      "path": "docs/features/12_beta_customer_requirements.md",
+      "sha256": "688977036897499126c4751b9ffd2191f8d83d72357444a9bf6470476307d2b7",
+      "bytes": 1408
+    },
+    {
+      "path": "docs/features/13_claude_code_execution_prompt.md",
+      "sha256": "e4f8207b10b47d42df7412f650403e5396cd5c9303ba18f556965d4b9c1ae38b",
+      "bytes": 1968
+    },
+    {
+      "path": "docs/features/14_vercel_eve_agent_framework.md",
+      "sha256": "84c39c3533feba904ba95e609a001478ec859a5e97d69c21e36c814029faca2a",
+      "bytes": 1701
+    },
+    {
+      "path": "docs/sources/vercel_source_notes.md",
+      "sha256": "33551b6ea2d18cbbddfd83bdf1a22a6c821e84997768520f496adc7cc9c053df",
+      "bytes": 902
+    },
+    {
+      "path": "evals/eval_matrix.yaml",
+      "sha256": "3cbd131e872fec6e6a0328e6e0563e3b70ec297e22c4bb0f10801dea3642e5af",
+      "bytes": 527
+    },
+    {
+      "path": "evals/playwright_acceptance_tests.md",
+      "sha256": "f75668f25cfd231c90289f6a906bdfaafb911ee97d5e05b314144ac4d52b55ef",
+      "bytes": 847
+    },
+    {
+      "path": "prd_manifest.yaml",
+      "sha256": "ccdc96a931d46fd215a9b4a2e97bc353d4199546408b9626124a272d0915edff",
+      "bytes": 1212
+    },
+    {
+      "path": "schemas/analytics_event.schema.json",
+      "sha256": "c68e2c5db0ab6114d57d327e18cf75ac913af561e73ead31ea28ef1e8ab91b3d",
+      "bytes": 643
+    },
+    {
+      "path": "schemas/eval_result.schema.json",
+      "sha256": "c32259d7fede2373d2f8fb19077253c36c38854dc7e7c2b2d13105cb515cc5b7",
+      "bytes": 544
+    },
+    {
+      "path": "schemas/recommendation.schema.json",
+      "sha256": "3816431c87c1fca18c6781e3d4a398284a108318851f71bc362880801ee7678a",
+      "bytes": 1127
+    },
+    {
+      "path": "tasks/github_issues_seed.md",
+      "sha256": "2c4a2c98c9ceee27d85cdc5e96a48ff2826762257c2f62867e4305a380dd7e46",
+      "bytes": 591
+    },
+    {
+      "path": "tasks/mcp_task_map.json",
+      "sha256": "e9174956350f4d63fb9ab4c93555f098afb31d1d4401e58ec2e88de9e4861aa7",
+      "bytes": 1510
+    }
+  ]
+}
